@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import NavbarComponent from "./components/NavbarComponent";
 import SidebarComponent from "./components/SidebarComponent";
 import FooterComponent from "./components/FooterComponent";
+import LoginPage from "./pages/Login/LoginPage";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <div className="content-wrapper">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/login" element={<LoginPage url="/home" />} />
         </Routes>
       </div>
     </div>

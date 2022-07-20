@@ -33,38 +33,18 @@ export default function SidebarComponent() {
               role="menu"
               data-accordion="false"
             >
-              <li className="nav-header">Store HB</li>
+              <li className="nav-header">Stock In</li>
               <li className="nav-item">
                 <Link to="/camarehb" className="nav-link">
                   <i className="nav-icon fas fa-drafting-compass text-fuchsia" />
-                  <p>LPB-HB</p>
+                  <p>Stock In</p>
                 </Link>
               </li>
-              <li className="nav-header">Store PM</li>
+              <li className="nav-header">Stock Out</li>
               <li className="nav-item">
                 <Link to="/camarepm2" className="nav-link">
                   <i className="nav-icon fas fa-drafting-compass text-success" />
-                  <p>LPB-PM P2</p>
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/camarepm6" className="nav-link">
-                  <i className="nav-icon fas fa-drafting-compass text-success" />
-                  <p>LPB-PM P6</p>
-                </Link>
-              </li>
-              <li className="nav-header">Store MA</li>
-              <li className="nav-item">
-                <Link to="/camarema" className="nav-link">
-                  <i className="nav-icon fas fa-drafting-compass text-danger" />
-                  <p>LPB-MA</p>
-                </Link>
-              </li>
-              <li className="nav-header">Manaul</li>
-              <li className="nav-item">
-                <Link to="/wi" className="nav-link">
-                  <i className="nav-icon fas fa-drafting-compass text-danger" />
-                  <p>Camera Store Manaul</p>
+                  <p>Stock Out</p>
                 </Link>
               </li>
             </ul>
